@@ -1,0 +1,190 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --title-color: #2e2f42;
+  --light-color: #f4f4fd;
+  --text-color: #434455;
+  --active-color: #404bbf;
+  --white-color: #ffffff;
+  --accent-color: #e7e9fc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  letter-spacing: 0.02em;
+}
+
+.decoration {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: var(--title-color);
+}
+
+.logo-color-web {
+  color: var(--primary-brand-color);
+}
+
+.nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-color {
+  color: var(--title-color);
+}
+
+.nav-color:hover,
+.nav-color:focus,
+.current {
+  color: var(--active-color);
+}
+
+.address {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.address-color {
+  color: var(--text-color);
+}
+
+.address-color:hover,
+.address-color:focus {
+  color: var(--active-color);
+}
+
+/* main-studio */
+
+.hero {
+  background-color: var(--title-color);
+  color: var(--white-color);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: inherit;
+  background-color: var(--primary-brand-color);
+
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--active-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--title-color);
+}
+
+.section-text {
+  line-height: 1.5;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+
+  color: var(--title-color);
+}
+
+.team {
+  background-color: var(--light-color);
+}
+
+.team-item {
+  background-color: var(--white-color);
+}
+
+/* additional styles for page main-portfolio */
+
+.filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--primary-brand-color);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--white-color);
+  background-color: var(--active-color);
+}
+
+.hidden-text {
+  line-height: 1.5;
+  color: var(--light-color);
+}
+
+/* footer */
+
+.logo-footer {
+  line-height: 1.17;
+
+  color: var(--light-color);
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: var(--title-color);
+}
